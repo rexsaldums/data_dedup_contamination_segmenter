@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rexsaldums-aigcgen_jd285"
+name = "rexsaldums-data_dedup_contamination_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对AIGC 内容生成工程师·数据去重与污染检测相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://rexsaldums.github.io"
-Repository = "https://github.com/rexsaldums/aigcgen_jd285"
-Issues = "https://github.com/rexsaldums/aigcgen_jd285/issues"
+Repository = "https://github.com/rexsaldums/data_dedup_contamination_segmenter"
+Issues = "https://github.com/rexsaldums/data_dedup_contamination_segmenter/issues"
 
 [project.scripts]
-aigcgen_jd285 = "aigcgen_jd285:main"
+data_dedup_contamination_segmenter = "data_dedup_contamination_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["aigcgen_jd285"]
+py-modules = ["data_dedup_contamination_segmenter"]
